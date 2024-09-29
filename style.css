@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(45deg, black, #b4e8eb); */
+    background: url("https://raw.githubusercontent.com/Deeksha1923/Codsoft_Task3_Calculator/6c800b4cbad79449ae8b43c7b0225695f8d00ed3/calculator/image.jpg");
+    margin: 0;
+}
+
+.calculator {
+    background-color: #404246;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(48, 48, 48);
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color:rgb(23, 22, 22);
+    text-align: right;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #f25c41;
+}
+
+button:active {
+    background-color: #dea922;
+}
